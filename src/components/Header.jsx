@@ -4,9 +4,10 @@ export default function Header({ onClick }) {
       <div className="wrapper wrapper--header">
         <h1 className="header__title">Where in the world?</h1>
         <div role="button" onClick={onClick} className="header__theme">
-          <button className="btn btn--theme">
-            <i className="fa-solid fa-moon"></i>
-          </button>
+          <button
+            aria-label="btn-theme"
+            className="btn btn--theme fa-solid fa-moon"
+          ></button>
           <p className="dark-mode">Dark Mode</p>
         </div>
       </div>

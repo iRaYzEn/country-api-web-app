@@ -3,7 +3,7 @@ export default function Select({sortBy, setSortedBy}) {
   return (
     <>
       <div className="select__container">
-        <select value={sortBy} onChange={(e) => setSortedBy(e.target.value)} className="select" name="">
+        <select name="select" value={sortBy} onChange={(e) => setSortedBy(e.target.value)} className="select" name="">
           <option value="" className="select__item">
             Filter by Region
           </option>
