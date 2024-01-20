@@ -83,8 +83,8 @@ body {
 /* header start */
 .header {
     background: var(--White);
-    padding: 2em;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
+    padding: 2.5em;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .2);
     user-select: none;
 }
 
@@ -322,6 +322,4 @@ body {
         justify-content: flex-start;
     }
 }
-/* .country-details__borders { */
-/* } */
 /* country-details end*/
