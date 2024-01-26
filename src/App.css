@@ -72,6 +72,9 @@ body {
     background: var(--Dark-Blue);
     color: var(--Very-Light-Gray);
 }
+#dark .select__item {
+    background: var(--Dark-Blue);
+}
 /* theme end */
 
 .wrapper {
